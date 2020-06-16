@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LXRecorderDemo_Example' do
+  pod 'LXRecorderDemo', :path => '../'
+
+  target 'LXRecorderDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
