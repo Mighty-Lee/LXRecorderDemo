@@ -1,0 +1,16 @@
+PODS:
+  - LXRecorderDemo (0.1.0)
+
+DEPENDENCIES:
+  - LXRecorderDemo (from `../`)
+
+EXTERNAL SOURCES:
+  LXRecorderDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXRecorderDemo: 68d600882f66a8c223f63be0534d15b69d59952b
+
+PODFILE CHECKSUM: 93a190bd56912d3cde4ffa883b6be8d1ad380e69
+
+COCOAPODS: 1.9.1

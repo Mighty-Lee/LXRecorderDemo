@@ -1,0 +1,22 @@
+{
+  "name": "LXRecorderDemo",
+  "version": "0.1.0",
+  "summary": "A short description of LXRecorderDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mighty/LXRecorderDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mighty": "953489948@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mighty/LXRecorderDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LXRecorderDemo/Classes/**/*"
+}

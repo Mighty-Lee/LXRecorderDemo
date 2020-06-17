@@ -1,0 +1,6 @@
+framework module LXRecorderDemo {
+  umbrella header "LXRecorderDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
