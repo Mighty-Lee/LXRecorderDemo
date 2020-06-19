@@ -1,9 +1,9 @@
 {
   "name": "LXRecorderDemo",
-  "version": "0.1.0",
-  "summary": "A short description of LXRecorderDemo.",
+  "version": "0.2.0",
+  "summary": "iOS端录音功能实现.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mighty/LXRecorderDemo",
+  "homepage": "https://github.com/Mighty-Lee",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "mighty": "953489948@qq.com"
   },
   "source": {
-    "git": "https://github.com/mighty/LXRecorderDemo.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Mighty-Lee/LXRecorderDemo.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

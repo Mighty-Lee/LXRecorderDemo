@@ -1,5 +1,5 @@
 PODS:
-  - LXRecorderDemo (0.1.0)
+  - LXRecorderDemo (0.2.0)
 
 DEPENDENCIES:
   - LXRecorderDemo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXRecorderDemo: 68d600882f66a8c223f63be0534d15b69d59952b
+  LXRecorderDemo: d9ac9ef9f455e32c9f949918b15bd82b5e4bd7c1
 
 PODFILE CHECKSUM: 93a190bd56912d3cde4ffa883b6be8d1ad380e69
 

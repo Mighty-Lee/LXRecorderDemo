@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0325FD5D3B74312C774110689DE0A82B /* LXRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E97F3527888A5244DED3DC5E5895B750 /* LXRecordButton.m */; };
+		07D72A7B965D36043BF6407526122258 /* LXRecordPowerAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E7425C6BCB8FCE02E290D8AC375B60 /* LXRecordPowerAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ACCA1B7710CD0BD16B13115C883F43B /* Pods-LXRecorderDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F598D02BCDA040BE82B9CDFF690D4240 /* Pods-LXRecorderDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14F0CAF1E5F9493067FC9C2202153C70 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 629B630BDFF1741CB7510D03179A8CE3 /* ReplaceMe.m */; };
+		132FC19CBABA6F30EBC22E652FEAD792 /* LXRecordShowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E251AB12D42EC89B3A2764EDC16B63 /* LXRecordShowManager.m */; };
+		1DB81B3FE11160CE27EC352677418F35 /* LXRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A135FC47924C063B5AAB52C9E0DBF5 /* LXRecordPowerAnimationView.m */; };
+		218AE8BD4C90E8EE56129BA86D1319A7 /* LXRecorderDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD905A2CF971F638AE36837871684D5A /* LXRecorderDemo-dummy.m */; };
 		23042E6E4E4B40C5D9631245315C3EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		25B886A56FBC38E5AFDB970A053B914A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34DDF09174754600E7247AFE31C59480 /* LXRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7467E6B17B91591237E4417CEA3C0874 /* LXRecordToastContentView.m */; };
+		4A9E77622C2B6C3C0153F22D2905D1CD /* LXRecorderTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E4DD32F109EEB5770139F755D44BF96A /* LXRecorderTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B9A79DC13C71713C3611582612EFE31 /* LXRecorderDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A41D2C614999D39C12FD0A2FBC166FF /* LXRecorderDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648A8771ECF6F61D8FAB411BF06ADCBC /* LXRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BA7DC4653812BE315557C5D6F73F4A /* LXRecordView.m */; };
+		6E6ADF9470D269A32E5B89BD817F386C /* LXRecordToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = D996100AD04BE10C476D64B919AE247A /* LXRecordToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8257C297D4CDE7292947A068C70D0E71 /* LXRecordButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEA1563665DDA716A45784993414EA9 /* LXRecordButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99419BA2B1E0A67F713D36D0CBD22161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B03EC63C59ECF063AB38645E79C1FB33 /* LXRecorderDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D551BB37E9980DD7555D67719F56569 /* LXRecorderDemo-dummy.m */; };
+		9A7EF80694E1C69761FDEF93D8C86F1A /* LXRecordHeaderDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BD88635EE023579994A6E126A6314C /* LXRecordHeaderDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B66D64C22361CA4696AD16E741B9EF69 /* Pods-LXRecorderDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F0315C6275C1CB0A3117C1DFF9B835 /* Pods-LXRecorderDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0CE5CE19696F980A443070970CFB3E4 /* LXRecorderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6DBEB58743AAB8894563BE32D02804 /* LXRecorderTool.m */; };
 		DFC4396FCF03BB3321D86AB862D5F04C /* Pods-LXRecorderDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAC836AF74D9933FB48FCCD17062B13 /* Pods-LXRecorderDemo_Example-dummy.m */; };
+		ECB77F8F7FC7BC8A1A09E2105E035D43 /* LXRecordShowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5257337C449780349B7784C7EACAEF01 /* LXRecordShowManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F97B5F79DCCA29F603FD15321C564FD7 /* Pods-LXRecorderDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFA20EE1DEF70804055A8690B8FB1FF /* Pods-LXRecorderDemo_Tests-dummy.m */; };
-		FAAF114A072277A7A639A16389900A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FE12DFE105757B49E8EC19171C973FAE /* LXRecorderDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CD851CED2BCD214A69B1AB87A9801D /* LXRecorderDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCFB5A498740A99D635CA29598A9108 /* LXRecordView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1565CA4BA23E7B52F2B698BCE818BB7 /* LXRecordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,42 +49,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038DD8638252ACCC08CD90B40B98ED70 /* LXRecorderDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LXRecorderDemo.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		074B8496B67FFE68B4B5163D89BD598D /* Pods_LXRecorderDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXRecorderDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		074B8496B67FFE68B4B5163D89BD598D /* Pods_LXRecorderDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXRecorderDemo_Tests.framework; path = "Pods-LXRecorderDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBAFCA794849F1C4028B464F6D33CEA /* Pods-LXRecorderDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXRecorderDemo_Example.modulemap"; sourceTree = "<group>"; };
-		1A562C694B916A1721C0C7D7B3347C61 /* LXRecorderDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXRecorderDemo-Info.plist"; sourceTree = "<group>"; };
+		1367357C230C603387B4DB0E5804098E /* LXRecorderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXRecorderDemo.debug.xcconfig; sourceTree = "<group>"; };
 		1D5A1A3100AF375DE5D3463B7121ED81 /* Pods-LXRecorderDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXRecorderDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1DF079CC6FF5F4C95B5EAB52B46EEC17 /* Pods-LXRecorderDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXRecorderDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D503C07FB19AAC53C38712A40912062 /* Pods-LXRecorderDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXRecorderDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DEA1563665DDA716A45784993414EA9 /* LXRecordButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecordButton.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BFA20EE1DEF70804055A8690B8FB1FF /* Pods-LXRecorderDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXRecorderDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		40E251AB12D42EC89B3A2764EDC16B63 /* LXRecordShowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRecordShowManager.m; sourceTree = "<group>"; };
 		42848C61D4CBBDFF3C55D36FC64F0977 /* Pods-LXRecorderDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXRecorderDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4A41D2C614999D39C12FD0A2FBC166FF /* LXRecorderDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXRecorderDemo-umbrella.h"; sourceTree = "<group>"; };
 		4DE842A20439D3ADD33DB1CC04A9C100 /* Pods-LXRecorderDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXRecorderDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		578790EED9DF3AC4F59C6A53DD5B4714 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		629B630BDFF1741CB7510D03179A8CE3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LXRecorderDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		64E9927057EB950B68616789572F86FA /* LXRecorderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXRecorderDemo.release.xcconfig; sourceTree = "<group>"; };
+		5257337C449780349B7784C7EACAEF01 /* LXRecordShowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecordShowManager.h; sourceTree = "<group>"; };
+		65BA7DC4653812BE315557C5D6F73F4A /* LXRecordView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRecordView.m; sourceTree = "<group>"; };
 		66981AD701AE2E9FB7C9C2AB271FC7C9 /* Pods-LXRecorderDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXRecorderDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		68CD851CED2BCD214A69B1AB87A9801D /* LXRecorderDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXRecorderDemo-umbrella.h"; sourceTree = "<group>"; };
 		71073A64D482C109822FFAB67477A7B1 /* Pods-LXRecorderDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXRecorderDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		84C59999FD04A9A7F0AE5EE980C0A368 /* LXRecorderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXRecorderDemo.debug.xcconfig; sourceTree = "<group>"; };
+		7467E6B17B91591237E4417CEA3C0874 /* LXRecordToastContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRecordToastContentView.m; sourceTree = "<group>"; };
+		77E7425C6BCB8FCE02E290D8AC375B60 /* LXRecordPowerAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecordPowerAnimationView.h; sourceTree = "<group>"; };
 		871BB3A8EE2C93DABC778E03CD8896B0 /* Pods-LXRecorderDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXRecorderDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		8877B5B3A0C7AF36AD5F301A83D8644E /* LXRecorderDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXRecorderDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C1AEC9820C84DA03A67B58573E2B13F /* Pods-LXRecorderDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXRecorderDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		9D551BB37E9980DD7555D67719F56569 /* LXRecorderDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXRecorderDemo-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A507F8BCF29C8F5CD023DAD2A04682EF /* LXRecorderDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXRecorderDemo.modulemap; sourceTree = "<group>"; };
-		A9C44F939DDAD961DED1FB6B5D3F61E7 /* LXRecorderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LXRecorderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6DBEB58743AAB8894563BE32D02804 /* LXRecorderTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRecorderTool.m; sourceTree = "<group>"; };
+		94BD88635EE023579994A6E126A6314C /* LXRecordHeaderDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecordHeaderDefine.h; sourceTree = "<group>"; };
+		9C956603D7AD492DC6F7796B2DB8B1F6 /* LXRecorderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXRecorderDemo.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3BBF248DBAAB99515D9B9C78C20430 /* LXRecorderDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXRecorderDemo.modulemap; sourceTree = "<group>"; };
+		A9C44F939DDAD961DED1FB6B5D3F61E7 /* LXRecorderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXRecorderDemo.framework; path = LXRecorderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C6A281CEA7D976D118193628C6768F /* LXRecorderDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXRecorderDemo-prefix.pch"; sourceTree = "<group>"; };
 		AD5EF2EC19F122876DEE1C6183E3AB77 /* Pods-LXRecorderDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXRecorderDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF56239E39E97ABEC6FBEC3F53EA73E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B3FA9DF6EE19FC48C0045BE18F4FE803 /* Pods-LXRecorderDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXRecorderDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B7F542E72F76EC1862BA4CBE67A60398 /* Pods-LXRecorderDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXRecorderDemo_Tests-Info.plist"; sourceTree = "<group>"; };
-		BC0322571E1FE0F56115CD7C4A0C6318 /* Pods_LXRecorderDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXRecorderDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0322571E1FE0F56115CD7C4A0C6318 /* Pods_LXRecorderDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXRecorderDemo_Example.framework; path = "Pods-LXRecorderDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F0315C6275C1CB0A3117C1DFF9B835 /* Pods-LXRecorderDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXRecorderDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		D996100AD04BE10C476D64B919AE247A /* LXRecordToastContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecordToastContentView.h; sourceTree = "<group>"; };
 		DEAC836AF74D9933FB48FCCD17062B13 /* Pods-LXRecorderDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXRecorderDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		E1543E2A33F3764DB2E83990549729FA /* LXRecorderDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LXRecorderDemo-Info.plist"; sourceTree = "<group>"; };
+		E356FD479BC683B26ED21DDF9CA5F846 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4DD32F109EEB5770139F755D44BF96A /* LXRecorderTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecorderTool.h; sourceTree = "<group>"; };
+		E8A135FC47924C063B5AAB52C9E0DBF5 /* LXRecordPowerAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRecordPowerAnimationView.m; sourceTree = "<group>"; };
+		E97F3527888A5244DED3DC5E5895B750 /* LXRecordButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LXRecordButton.m; sourceTree = "<group>"; };
+		F1565CA4BA23E7B52F2B698BCE818BB7 /* LXRecordView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LXRecordView.h; sourceTree = "<group>"; };
 		F598D02BCDA040BE82B9CDFF690D4240 /* Pods-LXRecorderDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXRecorderDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FA93F7F65911780190EC3AE51542F8AF /* LXRecorderDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXRecorderDemo-prefix.pch"; sourceTree = "<group>"; };
+		F64D9A3C1E43CC58E3BDDD595FDF70DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FD905A2CF971F638AE36837871684D5A /* LXRecorderDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXRecorderDemo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		24558E6E2FEB4B9344939E0BF242428F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B886A56FBC38E5AFDB970A053B914A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28737EEEDFD08069678B43F01A8D2191 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,14 +121,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC0091B8D2E554040D689229BCE545C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAAF114A072277A7A639A16389900A03 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,23 +134,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A4DAF4B7AB6835C258BC6DB52358263 /* LXRecorderDemo */ = {
+		544AD295BE096AA274BA0D994955C334 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				629B630BDFF1741CB7510D03179A8CE3 /* ReplaceMe.m */,
-				ED025CDF12820B78C969F19172706654 /* Pod */,
-				F1150150A3712A4588926B632F03EDE1 /* Support Files */,
+				E4DD32F109EEB5770139F755D44BF96A /* LXRecorderTool.h */,
+				8F6DBEB58743AAB8894563BE32D02804 /* LXRecorderTool.m */,
+				5257337C449780349B7784C7EACAEF01 /* LXRecordShowManager.h */,
+				40E251AB12D42EC89B3A2764EDC16B63 /* LXRecordShowManager.m */,
 			);
-			name = LXRecorderDemo;
-			path = ../..;
+			name = Tools;
+			path = LXRecorderDemo/Classes/Tools;
 			sourceTree = "<group>";
 		};
-		6B06C187FDBDED263A8BDEA562D22250 /* Development Pods */ = {
+		7104DF7C066A90808B46D1D55A9320FC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6A4DAF4B7AB6835C258BC6DB52358263 /* LXRecorderDemo */,
+				9E3BBF248DBAAB99515D9B9C78C20430 /* LXRecorderDemo.modulemap */,
+				FD905A2CF971F638AE36837871684D5A /* LXRecorderDemo-dummy.m */,
+				E1543E2A33F3764DB2E83990549729FA /* LXRecorderDemo-Info.plist */,
+				A9C6A281CEA7D976D118193628C6768F /* LXRecorderDemo-prefix.pch */,
+				4A41D2C614999D39C12FD0A2FBC166FF /* LXRecorderDemo-umbrella.h */,
+				1367357C230C603387B4DB0E5804098E /* LXRecorderDemo.debug.xcconfig */,
+				9C956603D7AD492DC6F7796B2DB8B1F6 /* LXRecorderDemo.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LXRecorderDemo";
 			sourceTree = "<group>";
 		};
 		794FC7E73DC250F235065DE03B7C0B60 /* Pods-LXRecorderDemo_Tests */ = {
@@ -143,6 +175,22 @@
 			);
 			name = "Pods-LXRecorderDemo_Tests";
 			path = "Target Support Files/Pods-LXRecorderDemo_Tests";
+			sourceTree = "<group>";
+		};
+		90A1BB76B4732BF97CAFA33D3FDB99D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DEA1563665DDA716A45784993414EA9 /* LXRecordButton.h */,
+				E97F3527888A5244DED3DC5E5895B750 /* LXRecordButton.m */,
+				77E7425C6BCB8FCE02E290D8AC375B60 /* LXRecordPowerAnimationView.h */,
+				E8A135FC47924C063B5AAB52C9E0DBF5 /* LXRecordPowerAnimationView.m */,
+				D996100AD04BE10C476D64B919AE247A /* LXRecordToastContentView.h */,
+				7467E6B17B91591237E4417CEA3C0874 /* LXRecordToastContentView.m */,
+				F1565CA4BA23E7B52F2B698BCE818BB7 /* LXRecordView.h */,
+				65BA7DC4653812BE315557C5D6F73F4A /* LXRecordView.m */,
+			);
+			name = Views;
+			path = LXRecorderDemo/Classes/Views;
 			sourceTree = "<group>";
 		};
 		954F1A0553D893ABED60F7505D09DC77 /* Pods-LXRecorderDemo_Example */ = {
@@ -162,6 +210,29 @@
 			path = "Target Support Files/Pods-LXRecorderDemo_Example";
 			sourceTree = "<group>";
 		};
+		97C74CFE34B9B35B9B0D4D8CA1D5234C /* LXRecorderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C2934BD5DF65C14E6E6041A37C09973A /* Constants */,
+				9A84EEAA7686BD2F53395486B4A3A558 /* Pod */,
+				7104DF7C066A90808B46D1D55A9320FC /* Support Files */,
+				544AD295BE096AA274BA0D994955C334 /* Tools */,
+				90A1BB76B4732BF97CAFA33D3FDB99D9 /* Views */,
+			);
+			name = LXRecorderDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A84EEAA7686BD2F53395486B4A3A558 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F64D9A3C1E43CC58E3BDDD595FDF70DA /* LICENSE */,
+				8877B5B3A0C7AF36AD5F301A83D8644E /* LXRecorderDemo.podspec */,
+				E356FD479BC683B26ED21DDF9CA5F846 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		B87E8B08C945EF411ABAC8A89B4B2927 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,11 +250,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C2934BD5DF65C14E6E6041A37C09973A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				94BD88635EE023579994A6E126A6314C /* LXRecordHeaderDefine.h */,
+			);
+			name = Constants;
+			path = LXRecorderDemo/Classes/Constants;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6B06C187FDBDED263A8BDEA562D22250 /* Development Pods */,
+				E14746AC8E3BCCCBF0424313D2EAB209 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2E5CF038190048F7B23FA793C41BCE32 /* Products */,
 				B87E8B08C945EF411ABAC8A89B4B2927 /* Targets Support Files */,
@@ -198,29 +278,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ED025CDF12820B78C969F19172706654 /* Pod */ = {
+		E14746AC8E3BCCCBF0424313D2EAB209 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF56239E39E97ABEC6FBEC3F53EA73E7 /* LICENSE */,
-				038DD8638252ACCC08CD90B40B98ED70 /* LXRecorderDemo.podspec */,
-				578790EED9DF3AC4F59C6A53DD5B4714 /* README.md */,
+				97C74CFE34B9B35B9B0D4D8CA1D5234C /* LXRecorderDemo */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F1150150A3712A4588926B632F03EDE1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A507F8BCF29C8F5CD023DAD2A04682EF /* LXRecorderDemo.modulemap */,
-				9D551BB37E9980DD7555D67719F56569 /* LXRecorderDemo-dummy.m */,
-				1A562C694B916A1721C0C7D7B3347C61 /* LXRecorderDemo-Info.plist */,
-				FA93F7F65911780190EC3AE51542F8AF /* LXRecorderDemo-prefix.pch */,
-				68CD851CED2BCD214A69B1AB87A9801D /* LXRecorderDemo-umbrella.h */,
-				84C59999FD04A9A7F0AE5EE980C0A368 /* LXRecorderDemo.debug.xcconfig */,
-				64E9927057EB950B68616789572F86FA /* LXRecorderDemo.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LXRecorderDemo";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,11 +305,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB69532D602D30121C86E18C5EC5CA7B /* Headers */ = {
+		E2F35BC7A404D5C2D5D7DD2D8E6DA6D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE12DFE105757B49E8EC19171C973FAE /* LXRecorderDemo-umbrella.h in Headers */,
+				8257C297D4CDE7292947A068C70D0E71 /* LXRecordButton.h in Headers */,
+				4B9A79DC13C71713C3611582612EFE31 /* LXRecorderDemo-umbrella.h in Headers */,
+				4A9E77622C2B6C3C0153F22D2905D1CD /* LXRecorderTool.h in Headers */,
+				9A7EF80694E1C69761FDEF93D8C86F1A /* LXRecordHeaderDefine.h in Headers */,
+				07D72A7B965D36043BF6407526122258 /* LXRecordPowerAnimationView.h in Headers */,
+				ECB77F8F7FC7BC8A1A09E2105E035D43 /* LXRecordShowManager.h in Headers */,
+				6E6ADF9470D269A32E5B89BD817F386C /* LXRecordToastContentView.h in Headers */,
+				FCCFB5A498740A99D635CA29598A9108 /* LXRecordView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +325,12 @@
 /* Begin PBXNativeTarget section */
 		18D506B5D54CA46CF37C4211063C6E40 /* LXRecorderDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DFD40635FFE24E16209DCB614D98C53 /* Build configuration list for PBXNativeTarget "LXRecorderDemo" */;
+			buildConfigurationList = E58875078485BB19DA6D22246CFEC7EC /* Build configuration list for PBXNativeTarget "LXRecorderDemo" */;
 			buildPhases = (
-				EB69532D602D30121C86E18C5EC5CA7B /* Headers */,
-				E96BDAEB88E53F19D51822D12B714D02 /* Sources */,
-				FC0091B8D2E554040D689229BCE545C3 /* Frameworks */,
-				75907A57ACB6477FC146213F3A2DB345 /* Resources */,
+				E2F35BC7A404D5C2D5D7DD2D8E6DA6D6 /* Headers */,
+				10BBF54FF5DA8B8B3FC1B0404D082996 /* Sources */,
+				24558E6E2FEB4B9344939E0BF242428F /* Frameworks */,
+				55047D9243B2DD45CC1444FB84C0C52A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,14 +416,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65C29CCB5EAD94FBDBDDEA4A8BE83613 /* Resources */ = {
+		55047D9243B2DD45CC1444FB84C0C52A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75907A57ACB6477FC146213F3A2DB345 /* Resources */ = {
+		65C29CCB5EAD94FBDBDDEA4A8BE83613 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,6 +433,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10BBF54FF5DA8B8B3FC1B0404D082996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0325FD5D3B74312C774110689DE0A82B /* LXRecordButton.m in Sources */,
+				218AE8BD4C90E8EE56129BA86D1319A7 /* LXRecorderDemo-dummy.m in Sources */,
+				C0CE5CE19696F980A443070970CFB3E4 /* LXRecorderTool.m in Sources */,
+				1DB81B3FE11160CE27EC352677418F35 /* LXRecordPowerAnimationView.m in Sources */,
+				132FC19CBABA6F30EBC22E652FEAD792 /* LXRecordShowManager.m in Sources */,
+				34DDF09174754600E7247AFE31C59480 /* LXRecordToastContentView.m in Sources */,
+				648A8771ECF6F61D8FAB411BF06ADCBC /* LXRecordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F48F573D128138AE9932CDD027BEB1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,15 +460,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFC4396FCF03BB3321D86AB862D5F04C /* Pods-LXRecorderDemo_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E96BDAEB88E53F19D51822D12B714D02 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B03EC63C59ECF063AB38645E79C1FB33 /* LXRecorderDemo-dummy.m in Sources */,
-				14F0CAF1E5F9493067FC9C2202153C70 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +481,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A93A194F1FDFEF9890EF0DE7A09D36F /* Debug */ = {
+		3F69C12E9EDD8AA616CA04CF62355B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84C59999FD04A9A7F0AE5EE980C0A368 /* LXRecorderDemo.debug.xcconfig */;
+			baseConfigurationReference = 1367357C230C603387B4DB0E5804098E /* LXRecorderDemo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -490,9 +565,42 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4ED32322D39669097F4154E5E56A4F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C956603D7AD492DC6F7796B2DB8B1F6 /* LXRecorderDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXRecorderDemo/LXRecorderDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXRecorderDemo/LXRecorderDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXRecorderDemo/LXRecorderDemo.modulemap";
+				PRODUCT_MODULE_NAME = LXRecorderDemo;
+				PRODUCT_NAME = LXRecorderDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -523,38 +631,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		703B97566B41AD581D17615397D448D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64E9927057EB950B68616789572F86FA /* LXRecorderDemo.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXRecorderDemo/LXRecorderDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXRecorderDemo/LXRecorderDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LXRecorderDemo/LXRecorderDemo.modulemap";
-				PRODUCT_MODULE_NAME = LXRecorderDemo;
-				PRODUCT_NAME = LXRecorderDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,15 +814,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DFD40635FFE24E16209DCB614D98C53 /* Build configuration list for PBXNativeTarget "LXRecorderDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0A93A194F1FDFEF9890EF0DE7A09D36F /* Debug */,
-				703B97566B41AD581D17615397D448D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D25DD6AC7ABBF600C0E4CEB93E2A49DE /* Build configuration list for PBXNativeTarget "Pods-LXRecorderDemo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,6 +828,15 @@
 			buildConfigurations = (
 				A72525A83CC8B7FDD02F9F58C9EDD229 /* Debug */,
 				6DF04C19A69A6BAC9BD7DD2C5B320A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58875078485BB19DA6D22246CFEC7EC /* Build configuration list for PBXNativeTarget "LXRecorderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F69C12E9EDD8AA616CA04CF62355B08 /* Debug */,
+				4ED32322D39669097F4154E5E56A4F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

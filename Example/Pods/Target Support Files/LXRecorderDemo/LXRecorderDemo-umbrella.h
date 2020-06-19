@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "LXRecordHeaderDefine.h"
+#import "LXRecorderTool.h"
+#import "LXRecordShowManager.h"
+#import "LXRecordButton.h"
+#import "LXRecordPowerAnimationView.h"
+#import "LXRecordToastContentView.h"
+#import "LXRecordView.h"
 
 FOUNDATION_EXPORT double LXRecorderDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char LXRecorderDemoVersionString[];
